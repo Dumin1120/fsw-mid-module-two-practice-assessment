@@ -5,8 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Emoji Stories App</title>
+  <script src="emojiStories.js"></script>
 </head>
 <body>
-  
+  <h3>
+    <p id="emoji-story">Story:</p>
+  </h3>
+  Length: 
+  <input type="number" id="story-length-input">
+  <button id="generate-story-btn">Generate Emoji Story</button>
+  <br>
+  Description: 
+  <input type="text" id="description-input">
+  <button id="submit-description-btn">Submit Story Description</button>
+  <h2 id="history-title">0 Saved Stories</h2>
+  <ul id="history-list"></ul>
 </body>
 </html>
